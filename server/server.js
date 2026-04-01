@@ -61,10 +61,10 @@ app.use("/api/auth", userRouter);
 app.use("/api/messages", messageRouter);
 
 // ── Serve Frontend ───────────────────────────────────────────────────────────
-app.use(express.static(path.resolve(__dirname, '..', 'dist')));
+app.use(express.static(path.resolve(__dirname, 'public')));
 
 app.use('*name', (req, res) => {
-    res.sendFile(path.resolve(__dirname, '..', 'dist', 'index.html'))
+    res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
 });
 
 // ── Start Server ───────────────────────────────────────────────────────────

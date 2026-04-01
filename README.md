@@ -13,6 +13,10 @@
   A full-stack, real-time messaging platform built with the MERN stack and Socket.IO.
 </p>
 
+<p align="center">
+  <strong>🔴 Live Demo:</strong> <a href="https://testing-hwtk.onrender.com/">https://testing-hwtk.onrender.com/</a>
+</p>
+
 ## ✨ Features
 
 - **🛡️ Authentication**: Secure sign-up and login with JWT and bcrypt.

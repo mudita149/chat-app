@@ -61,7 +61,7 @@ app.use("/api/auth", userRouter);
 app.use("/api/messages", messageRouter);
 
 // ── Serve Frontend ───────────────────────────────────────────────────────────
-const distPath = path.join(__dirname, "../client/dist");
+const distPath = path.join(__dirname, "dist");
 app.use(express.static(distPath));
 
 // Catch-all: send index.html for any non-API route (React Router handles it)
